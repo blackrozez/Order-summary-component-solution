@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100;9..144,200;9..144,300;9..144,400;9..144,500;9..144,700;9..144,800&family=Montserrat:wght@100;500&family=Red+Hat+Display:wght@300;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(images/pattern-background-desktop.svg);
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+    
+
+}
+
+.card{
+    width: 375px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+
+}
+.bg-awal img{
+    width: 375px;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 0.5em;
+}
+
+.tittle{
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.tittle-description{
+    
+    width: 310px;
+    padding-left:4em;
+    text-align: center;
+    margin-bottom: 1em;
+
+}
+
+.content{
+    display: flex;
+    padding-left: 2em;
+    width: 250px;
+    justify-content: space-between;
+    padding-bottom: 2.5em;
+}
+
+.annual {
+    padding-top: 0.3em;
+    padding-left: 1em;
+    font-weight: 900;
+    font-size: 13px;
+    padding-bottom: 0.1em;
+}
+
+.price {
+    padding-left: 1em;
+    font-size: 14px;
+    color: grey;
+}
+
+.change-link{
+    padding-left: 5em;
+    padding-top: 0.5em;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.change-link:hover{
+    text-decoration-line: underline;
+}
+
+.content-bottom{
+    
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.payment-btn{
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom: 1em;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    cursor: pointer;
+}
+
+.payment-btn:hover{
+    color: lightgray;
+    background-color: hsl(245, 50%, 52%);
+
+}
+.cancel{
+    padding-bottom: 2em;
+    font-weight: 700;
+    color: grey;
+    cursor: pointer;
+}
+
+.cancel:hover{
+    color: darkblue;
+}
+
+
+
+
+
